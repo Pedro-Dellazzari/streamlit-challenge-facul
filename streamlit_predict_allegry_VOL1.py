@@ -4,6 +4,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np 
 import plotly.express as px 
+import xlrd
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, roc_curve, recall_score
