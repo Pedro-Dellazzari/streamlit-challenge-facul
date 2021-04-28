@@ -81,6 +81,12 @@ predictions = model.predict(X_test)
 
 ##############################################################
 
+#TESTE
+Htmlfile = open('teste.html','r', encoding='utf-8')
+source_code = Htmlfile.read()
+print(source_code)
+components.html(source_code, height=1000)
+
 #Pegando os inputs 
 X_new = np.array([espirros_input, nariz_input,olhos_input,tosse_input,ar_input,mancha_input,dor_input,diarreia_input])
 X_new = X_new.reshape(1,-1)
