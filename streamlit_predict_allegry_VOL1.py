@@ -8,6 +8,7 @@ import xlrd
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, roc_curve, recall_score
+import streamlit.components.v1 as components
 
 #DATA 
 #Data para o algoritmo
